@@ -24,8 +24,8 @@ function Empolyee(config:employeeInformation): {fistName: string; lastName: stri
     if(config.salary) {
         newEmployee.saraly = config.salary
     if(config.bonus == true) {
-            newEmployee.saraly = config.salary*2.5
-            newEmployee.bonus = config.bonus
+        newEmployee.saraly = config.salary*2.5
+        newEmployee.bonus = config.bonus
         }
     }
     if(config.bonus == false) {
